@@ -18,7 +18,7 @@ oplossing VR challenge 2
 - Bij het grab interactble paintbrush object zijn de events van "On Activate" en "On Deactivate" omgedraaid. Bij het "On Activate" event stond er CreateTrail.EndTrail terwijl dit .StartTrail moest zijn en dit visa versa bij de "On Deactivate".
 <br><br>
 ### 4.  The medium brush size button turns invisible when pressed and makes the trail gigantic.
-- Onder XR Rig > LeftHand > Canvas_Pallette > Button_Size heb ik de Button_medium de zelfe pressed color gegven als de andere 2 knoppen omdat als je voor deze verndering op de knop duwde verdween hij. Ook heb ik bij het On Click event de width van de trail verlaagd van 0.25 naar 0.03 zodat dit mooi in het midden ligt van de 2 andere knoppen
+- Onder XR Rig > LeftHand > Canvas_Pallette > Button_Size heb ik de Button_medium de zelfde pressed color gegven als de andere 2 knoppen omdat als je voor deze verndering op de knop duwde verdween hij. Ook heb ik bij het On Click event de width van de trail verlaagd van 0.25 naar 0.03 zodat dit mooi in het midden ligt van de 2 andere knoppen
 <br><br>
 ### 5.  The paint brush sound effect stays the same, regardless of how far it is from you.
 - Door de de audio source te verlagen van een minimale afstand van 0.1 en een maximale afstand 1
